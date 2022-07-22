@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframes</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        li {
+            line-height: 30px;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(117, 192, 31);
+        }
+
+        a:hover {
+            background-color: black;
+        }
+        iframe {
+            width: 100vh;
+            height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portfólio Devs de amanhã !</h1>
+    <ul>
+        <li><a href="https://gvs006.github.io/projeto-cordel/" target="frame">Projeto Huds Cordel com Efeito Parallax</a></li>
+        <li><a href="https://gvs006.github.io/projeto-android/" target="frame">Projeto Huds Android responsivo na "unha"</a></li>
+        <li><a href="https://jpfregni.github.io/Maratona-Explorer-02-RocketSeat/" sandbox="sandbox" referrerpolicy="no-referrer" target="frame">Projeto João Portfólio Rocketseat</a></li>
+    </ul>
+    
+    
+    
+    <p><iframe src="" frameborder="1" name="frame" srcdoc="<h1>Selecione um projeto acima !</h1>">Infelizmente seu navegador não é compatível com este recurso.</iframe></p>
+</body>
+</html>
