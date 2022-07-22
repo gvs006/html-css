@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table {
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+            background: lightgrey;
+        }
+        
+        thead {
+            text-align: center;
+            font-weight: bold;
+            background-color: skyblue;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        tfoot {
+            background-color: black;
+           color: white;
+           font-weight: bolder;
+        }
+        caption {
+            font-weight: bold;
+            color: red;
+            padding: 10px;
+            background-color: rgba(135, 207, 235, 0.438);
+            border: 1px solid black;
+            border-radius: 10px 10px 0px 0px;
+        }
+        caption:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabela HTML5</h1>
+    <table>
+        <caption>População dos Estados do Brasil</caption>
+        <thead>
+            <tr>
+                <td>Estado</td>
+                <td>População</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Fonte: Confia!</td>
+                <td></td>
+            </tr>
+        </tfoot>
+        
+        
+    </table>
+</body>
+
+</html>
